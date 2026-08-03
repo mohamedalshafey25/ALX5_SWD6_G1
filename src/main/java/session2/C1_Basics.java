@@ -1,3 +1,5 @@
+package session2;
+
 public class C1_Basics {
 
     public static void main(String[] args) {

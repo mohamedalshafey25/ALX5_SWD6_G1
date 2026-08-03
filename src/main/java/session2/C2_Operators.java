@@ -1,3 +1,5 @@
+package session2;
+
 public class C2_Operators {
 
     public static void main(String[] args) {
@@ -18,6 +20,7 @@ public class C2_Operators {
         System.out.println("a * b = " + (a * b)); // 30
         System.out.println("a / b = " + (a / b)); // 3
         System.out.println("a % b = " + (a % b)); // 1
+
 
 
 
