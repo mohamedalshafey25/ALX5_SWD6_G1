@@ -2,37 +2,28 @@ package session4;
 
 import java.util.Scanner;
 
-public class C1_WhileLoop {
+public class C2_DoWhileLoop {
     public static void main(String[] args) {
-
-        // Using while loop to login with correct password
-
         Scanner scanner = new Scanner(System.in);
         final String registeredPassword = "1234";
-        boolean isLoggedIn = false;
-
         String enteredPassword = "1234";
 
         System.out.println("Before loop");
 
-        while(!enteredPassword.equals(registeredPassword)) {
+        do {
             System.out.println("Enter your password: ");
             enteredPassword = scanner.nextLine();
 
-            if (enteredPassword.equals(registeredPassword)){
+            if (enteredPassword.equals(registeredPassword)) {
                 System.out.println("Password is correct. Access granted.");
-                isLoggedIn = true;
             } else {
                 System.out.println("Password is incorrect. Access denied.Try again");
             }
         }
+        while (!enteredPassword.equals(registeredPassword));
 
         System.out.println("Welcome to your profile!");
 
-        while (isLoggedIn=true){
-            System.out.println("Present Personal Data");
-        }
+
     }
-
-
 }
