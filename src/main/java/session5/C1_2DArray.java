@@ -1,5 +1,7 @@
 package session5;
 
+import static session5.C2_Methods.welcome;
+
 public class C1_2DArray {
     public static void main(String[] args) {
 
@@ -26,8 +28,6 @@ public class C1_2DArray {
                 System.out.println("Element at (" + i + " , "+ j +") = " + numbers[i][j]);
             }
         }
-
-
 
 
     }
