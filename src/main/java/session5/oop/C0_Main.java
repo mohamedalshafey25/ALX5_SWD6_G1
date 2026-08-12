@@ -13,11 +13,13 @@ public class C0_Main {
         skillsDynamix.displayInfo();
         skillsDynamix.teachCourse("Testing");
 
-
         C1_TrainingCompany tc2 = new C1_TrainingCompany("TestPro", "Cairo", 500, false);
         tc2.displayInfo();
         tc2.enable();
         tc2.disable();
+
+        C1_TrainingCompany tc3 = new C1_TrainingCompany("TestSkill");
+        C1_TrainingCompany tc4 = new C1_TrainingCompany("TesterWork","Monoufia");
 
     }
 

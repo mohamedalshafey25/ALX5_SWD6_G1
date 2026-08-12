@@ -10,7 +10,7 @@ public class C1_TrainingCompany {
 
     // Constructors
     public C1_TrainingCompany(String name, String address,int capacity, boolean availability){
-        System.out.println("Default Constructor called!");
+        System.out.println("Customized Constructor called!");
 
         this.name = name;
         this.address = address;
@@ -18,6 +18,16 @@ public class C1_TrainingCompany {
         this.availability = availability;
     }
 
+    public C1_TrainingCompany(String name){
+        System.out.println("name Constructor called!");
+        this.name = name;
+    }
+
+    public C1_TrainingCompany(String name, String address){
+        System.out.println("name Constructor called!");
+        this.name = name;
+        this.address = address;
+    }
 
 
     // Methods / Actions
