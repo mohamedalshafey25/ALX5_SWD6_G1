@@ -9,6 +9,16 @@ public class C1_TrainingCompany {
     boolean availability;
 
     // Constructors
+    public C1_TrainingCompany(String name, String address,int capacity, boolean availability){
+        System.out.println("Default Constructor called!");
+
+        this.name = name;
+        this.address = address;
+        this.capacity = capacity;
+        this.availability = availability;
+    }
+
+
 
     // Methods / Actions
     public void displayInfo() {
@@ -22,5 +32,14 @@ public class C1_TrainingCompany {
         System.out.println("Teaching course: " + courseName);
     }
 
+    public void enable(){
+        this.availability=true;
+        System.out.println("Company activated and status is: "+ availability);
+    }
+
+    public void disable(){
+        this.availability=false;
+        System.out.println("Company deactivated and status is: "+ availability);
+    }
 
 }
