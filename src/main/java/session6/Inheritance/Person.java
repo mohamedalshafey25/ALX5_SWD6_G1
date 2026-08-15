@@ -8,6 +8,12 @@ public class Person {
     String address;
     String nationality;
 
+    public Person(int age, String name) {
+    }
+
+    public Person() {
+    }
+
     // Constructors
 
 

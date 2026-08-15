@@ -18,6 +18,5 @@ public class AMain {
         gs1.study();
         gs1.graduate();
 
-
     }
 }

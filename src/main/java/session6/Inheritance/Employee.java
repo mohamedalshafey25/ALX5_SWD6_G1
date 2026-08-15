@@ -5,4 +5,5 @@ public class Employee extends Person{
     int empID;
     double salary;
 
+
 }
